@@ -1,0 +1,22 @@
+{
+  "name": "fs-auth",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "hono": "^4.7.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
